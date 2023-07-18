@@ -131,3 +131,81 @@
   position: absolute;
   top: 0;
 }
+
+.intro-divider {
+  width: 100%;
+  height: 2rem;
+  background-color: #fafafa;
+}
+
+@mixin intro__cont {
+  position: relative;
+  background-color: #fff;
+  color: #111;
+}
+
+.intro__drawal {
+  @include intro__cont();
+
+  height: 46.875rem;
+
+  &-img {
+    position: absolute;
+    top: 2.25rem;
+    left: 50%;
+    width: 29.5625rem;
+    margin: 0 0 0 -31.25rem;
+  }
+
+  &-txt {
+    position: absolute;
+    top: 13.75rem;
+    left: 50%;
+    margin-left: 5.625rem;
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.35;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      font-size: .9375rem;
+      font-weight: 400;
+      line-height: 1.7;
+      color: #666;
+    }
+  }
+
+  &-btn {
+    position: absolute;
+    top: 27.375rem;
+    left: 50%;
+    margin-left: 5.625rem;
+  }
+
+  &-link_btn {
+    display: block;
+    background-color: #f6f6f6;
+    width: 16.125rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    color: #333;
+    border-radius: .625rem;
+    text-align: center;
+  }
+
+  &-ico_arr {
+    display: inline-block;
+    width: .375rem;
+    height: .5625rem;
+    margin: .3438rem 0 0 .5rem;
+    vertical-align: text-top;
+  }
+}
+
+.intro__deposit-saving {
+  @include intro__cont();
+}
