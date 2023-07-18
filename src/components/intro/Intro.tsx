@@ -25,10 +25,16 @@ const Intro = () => {
         <ul className="intro__main-list_store">
           <li>
             <Link to='https://play.google.com/store/apps/details?id=com.kakaobank.channel&pli=1' className="intro__main-link_store">
-              
+              <span className="intro__main-img"></span>
+              Google Play
             </Link>
           </li>
-          <li></li>
+          <li>
+            <Link to='https://apps.apple.com/kr/app/id1258016944' className="intro__main-link_store">
+              <span className="intro__main-img-app"></span>
+              App Store
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="background-line"></div>
