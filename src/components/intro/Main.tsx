@@ -1,3 +1,5 @@
+import DepositSavings from "./DepositSavings";
+import Drawal from "./Drawal";
 import Intro from "./Intro";
 
 const Main = () => {
@@ -6,6 +8,8 @@ const Main = () => {
       <div className="main-article">
         <div className="module-content">
           <Intro />
+          <Drawal />
+          <DepositSavings />
         </div>
       </div>
     </div>
