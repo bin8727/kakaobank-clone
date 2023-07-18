@@ -1,0 +1,136 @@
+.header {
+  position: relative;
+  border: 0 none;
+  background-color: transparent;
+  overflow: initial;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  min-width: 51.75rem;
+  height: 5.0625rem;
+  padding: 0 7.8125rem 0 10.625rem;
+
+  &__container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 5.0625rem;
+    background: transparent;
+    min-width: 70rem;
+    transition: background .5s, color .5s;
+  }
+
+  &__wrap {
+    border-bottom: .0625rem solid rgba(0, 0, 0, .1);
+    transition: border .5s;
+    background-color: #fff;
+  }
+
+  &__items {
+    width: 67.5rem;
+    height: 100%;
+    display: block;
+    font-size: 0;
+    text-align: right;
+    margin: auto;
+  }
+
+  &__logo {
+    height: 5rem;
+    display: inline-block;
+    float: left;
+    width: 7.25rem;
+    line-height: 5rem;
+    position: relative;
+
+    &-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      transition: opacity .5s;
+      opacity: 1;
+      background-image: url('../assets/logo_black.svg');
+      background-size: 7.25rem 1.25rem;
+      vertical-align: middle;
+      width: 7.25rem;
+      height: 1.25rem;
+      float: none;
+      padding: 0;
+    }
+  }
+
+  &__nav-items {
+    height: 5rem;
+    min-width: 5rem;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 .625rem;
+    text-align: center;
+    transition: border-color .5s;
+    padding: 0 .625rem;
+
+    &.header__nav-btn {
+      line-height: 5rem;
+      vertical-align: top;
+      border: none !important;
+    }
+  }
+
+  &__nav-anchor {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: .9375rem;
+    line-height: 5rem;
+    transition: color .5s;
+    float: none;
+    padding: 0;
+    color: #000;
+  }
+
+  &__nav-btn-link {
+    display: inline-block;
+    line-height: 2.75rem;
+    font-size: .875rem;
+    border-radius: 1.375rem;
+    vertical-align: middle;
+    float: none;
+    padding: 0 1.25rem;
+    background: #fede22;
+    border: .0625rem solid #fede22;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__nav-ico {
+    display: inline-block;
+    height: 5rem;
+    line-height: 1.25rem;
+    vertical-align: middle;
+    float: right;
+    position: relative;
+    width: 3.75rem;
+
+    a {
+      display: block;
+      width: 1.25rem;
+      height: 1.25rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.25rem auto 1.25rem;
+      background-image: url('../assets/icon_eng.svg');
+      background-size: 1.25rem 1.25rem;
+      opacity: 1;
+      float: none;
+      padding: 0;
+    }
+  }
+}
