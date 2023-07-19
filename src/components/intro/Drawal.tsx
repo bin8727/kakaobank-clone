@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import WithDrawal from '../../assets/main-withdrawal.png';
 import Arrow from '../../assets/home_arr.png';
+import Divider from './Divider';
 
 const Drawal = () => {
   return (
@@ -31,7 +32,7 @@ const Drawal = () => {
           </Link>
         </div>
       </div>
-      <div className="intro-divider"></div>
+      <Divider />
     </>
   );
 };

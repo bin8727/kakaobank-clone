@@ -282,3 +282,62 @@
     }
   }
 }
+
+.intro__moim {
+  @include intro__cont();
+  
+  height: 46.875rem;
+
+  &-img {
+    position: absolute;
+    top: 5.3125rem;
+    right: 50%;
+    width: 28.6875rem;
+    height: 37.9375rem;
+    margin-right: 1.5rem;
+  }
+
+  &-txt {
+    position: absolute;
+    top: 13.4375rem;
+    left: 50%;
+    margin-left: 5.625rem;
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.35;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      font-size: .9375rem;
+      font-weight: 400;
+      line-height: 1.7;
+      color: #666;
+    }
+  }
+
+  &-btn {
+    top: 28.4375rem;
+    left: 50%;
+    margin-left: 5.625rem;
+    position: absolute;
+  }
+
+  &-link_bank {
+    display: block;
+    background-color: #f6f6f6;
+    width: 16.125rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    color: #333;
+    border-radius: .625rem;
+    text-align: center;
+  }
+
+  &-ico_arr {
+    @include ico_arr();
+  }
+}
