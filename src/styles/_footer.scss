@@ -1,0 +1,168 @@
+.footer {
+  position: relative;
+  background-color: #eee;
+  min-width: 70rem;
+  text-align: center;
+
+  &__inner {
+    position: relative;
+    width: 67.5rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+  }
+
+  &__info {
+    overflow: hidden;
+    padding: 1.25rem 0 1rem;
+  }
+
+  &__link-service {
+    float: left;
+    font-size: .75rem;
+    color: #666;
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+  }
+
+  .bold {
+    color: #000;
+    font-weight: bold;
+  }
+
+  &__txt-bar {
+    float: left;
+    width: .0625rem;
+    height: .625rem;
+    margin: .5rem .9375rem 0;
+    background-color: #d8d8d8;
+  }
+
+  &__busi {
+    padding: 0 0 .375rem;
+    font-size: .75rem;
+    text-align: left;
+
+    &-txt {
+      padding: 0 .375rem 0 0;
+      color: #888;
+    }
+
+    &-tel {
+      padding: 0 0 0 .375rem;
+      color: #888;
+    }
+
+    &-copyright {
+      font-size: .75rem;
+      text-align: left;
+      color: #888;
+    }
+  }
+
+  &__bottom {
+    text-align: left;
+    padding-top: .75rem;
+    padding-bottom: 1.125rem;
+  }
+
+  &__link-license {
+    display: inline-block;
+  }
+
+  &__link-webtrust {
+    margin-left: 1.25rem;
+  }
+
+  &__webaccessibility {
+    width: 3rem;
+    height: 2rem;
+    border: 0;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  &__web-trust {
+    border: 0;
+    object-fit: contain;
+    vertical-align: middle;
+    width: 2.625rem;
+    height: 2.5625rem;
+  }
+
+  &__link-txt {
+    height: 1rem;
+    font-size: .8125rem;
+    font-weight: 600;
+    color: #666;
+    margin-left: .5rem;
+    display: inline-block;
+  }
+
+  &__list {
+    overflow: hidden;
+    float: right;
+    margin-top: .3125rem;
+    margin-right: 2.125rem;
+
+    li {
+      float: left;
+    }
+
+    &_link {
+      display: block;
+      overflow: hidden;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+.link-facebook {
+  margin-left: .8125rem;
+  margin-top: .125rem;
+  margin-bottom: .125rem;
+
+  & > .ico_sns {
+    background-position: 0 -5.625rem;
+  }
+}
+
+.link-instragram {
+  margin-left: .25rem;
+  margin-top: .125rem;
+  margin-bottom: .125rem;
+
+  & > .ico_sns {
+    background-position: -11.9375rem -8.625rem;
+  }
+}
+
+.link-youtube {
+  margin-left: .8125rem;
+  margin-top: .125rem;
+  margin-bottom: .125rem;
+
+  & > .ico_sns {
+    background-position: -5.625rem -5.625rem;
+  }
+}
+
+.link-brunch {
+  margin: .125rem .125rem .125rem .8125rem;
+
+  & > .ico_sns {
+    background-position: -13.5625rem -8.625rem;
+  }
+}
+
+.ico_sns {
+  display: block;
+  overflow: hidden;
+  background: {
+    image: url('../assets/ico_sns.png');
+    repeat: no-repeat;
+  }
+  text-indent: -624.9375rem;
+  width: 1.5rem;
+  height: 1.5rem
+}
