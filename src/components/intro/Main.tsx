@@ -2,6 +2,7 @@ import DepositSavings from "./DepositSavings";
 import Drawal from "./Drawal";
 import Intro from "./Intro";
 import Moim from "./Moim";
+import Week from "./Week";
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
           <Drawal />
           <DepositSavings />
           <Moim />
+          <Week />
         </div>
       </div>
     </div>

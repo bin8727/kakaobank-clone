@@ -341,3 +341,63 @@
     @include ico_arr();
   }
 }
+
+.intro__week {
+  @include intro__cont();
+
+  height: 40.625rem;
+
+  &-txt {
+    position: absolute;
+    top: 11.0625rem;
+    left: 50%;
+    margin-left: -25.625rem;
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.35;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      font-size: .9375rem;
+      font-weight: 400;
+      line-height: 1.7;
+      color: #666;
+    }
+  }
+
+  &-btn {
+    position: absolute;
+    top: 24.6875rem;
+    left: 50%;
+    margin-left: -25.625rem;
+    border-color: #c2c2c2;
+  }
+
+  &-link_bank {
+    display: block;
+    background-color: #f6f6f6;
+    width: 16.125rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    color: #333;
+    border-radius: .625rem;
+    text-align: center;
+  }
+
+  &-ico_arr {
+    @include ico_arr();
+  }
+
+  &-img {
+    position: absolute;
+    top: 8.125rem;
+    left: 50%;
+    margin-left: 2.5rem;
+    width: 30.75rem;
+    height: 25.5rem;
+  }
+}
