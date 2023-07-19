@@ -401,3 +401,75 @@
     height: 25.5rem;
   }
 }
+
+.intro__foreign {
+  @include intro__cont();
+
+  height: 46.875rem;
+  background: {
+    image: url('../assets/home_map.png');
+    color: #fff;
+    repeat: no-repeat;
+    position: -12% 50%;
+  }
+
+  &-img {
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    transition: transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0.5s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0.5s;
+
+    img {
+      position: absolute;
+      top: 1.25rem;
+      right: 55%;
+      width: 25.5rem;
+      height: 44.6875rem;
+      margin: 0 -2.5rem 0 -9.6875rem;
+    }
+  }
+
+  &-txt {
+    position: absolute;
+    top: 12.25rem;
+    left: 50%;
+    margin-left: 5.625rem;
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.35;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      font-size: .9375rem;
+      font-weight: 400;
+      line-height: 1.7;
+      color: #666;
+    }
+  }
+
+  &-btn {
+    position: absolute;
+    top: 30.75rem;
+    left: 50%;
+    margin-left: 5.625rem;
+  }
+
+  &-link_bank {
+    display: block;
+    background-color: #f6f6f6;
+    width: 16.125rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    color: #333;
+    border-radius: .625rem;
+    text-align: center;
+  }
+
+  &-ico_arr {
+    @include ico_arr();
+  }
+}
